@@ -1,0 +1,65 @@
+.blogContent {
+  width: 75%;
+  margin: 50px auto;
+}
+
+.metaContent {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.metaContent a,
+.metaContent p {
+  margin: 25px 10px;
+}
+
+.metaContent .user_icon {
+  border-radius: 100%;
+  background-color: gray;
+  padding: 12px;
+}
+
+.metaContent a {
+  text-decoration: none;
+  color: black;
+}
+
+.blogContent p {
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.commentHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.commentHeader .shareIcons {
+  margin: 0px;
+}
+
+.commentWrapper form {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.commentWrapper form input {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+}
+
+.commentWrapper form button {
+  width: 100px;
+  background-color: #3f1719;
+}
+
+.commentWrapper form button:hover {
+  opacity: 0.8;
+}

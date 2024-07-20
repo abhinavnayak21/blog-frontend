@@ -1,0 +1,30 @@
+.editor {
+  background-color: lightgray;
+}
+
+.editorHeader {
+    margin-top: 25px;
+}
+
+.formWrapper {
+  width: 75%;
+  margin: 50px auto;
+}
+
+.formWrapper form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formWrapper form input, .formWrapper form textarea {
+    margin: 25px;
+    padding: 12px;
+    width: 100%;
+}
+
+.formWrapper form input {
+    height: 50px;
+    font-size: 30px;
+}

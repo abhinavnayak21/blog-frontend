@@ -1,0 +1,51 @@
+.signupParent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+}
+
+.inputWrapper {
+  display: flex;
+  margin: 10px 0px;
+  flex-direction: column;
+}
+
+.inputWrapper label {
+  color: #3f1517;
+  margin: 5px 0px;
+  font-weight: 600;
+}
+
+.inputWrapper input {
+  width: 300px;
+  height: 30px;
+  padding: 6px;
+  border: 1px solid black;
+  /* border-radius: 6px; */
+}
+
+form button {
+  margin-top: 10px;
+  width: 315px;
+  height: 40px;
+  padding: 6px;
+  border: 1px solid black;
+  /* border-radius: 6px; */
+  background-color: #3f1517;
+  color: white;
+}
+
+.footerText {
+  margin-top: 10px;
+}
+
+.footerText a {
+  margin-left: 5px;
+}

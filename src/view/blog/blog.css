@@ -1,0 +1,22 @@
+.blogParent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media only screen and (max-width: 1320px) {
+  .blogParent {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .blogParent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .blogParent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

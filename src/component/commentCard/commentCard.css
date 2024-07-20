@@ -1,0 +1,53 @@
+.commentRow {
+  display: flex;
+  width: 75%;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.replyContent,
+.commentContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.metaComment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.metaComment .user_icon {
+  background-color: gray;
+  border-radius: 100%;
+  padding: 12px;
+  margin-right: 10px;
+}
+
+.metaComment .aboutAuthor h3,
+.metaComment .aboutAuthor p {
+  margin: 0px;
+}
+
+.replyContent {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .commentRow {
+    width: 100%;
+  }
+}
+
+.replyButton {
+  background-color: #3f1719;
+  color: white;
+  padding: 12px;
+  border: 1px solid black;
+}
+.cancelButton {
+  padding: 12px;
+  border: 1px solid #3f1719;
+  color: #3f1719;
+}
